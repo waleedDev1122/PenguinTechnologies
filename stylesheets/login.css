@@ -1,0 +1,75 @@
+.section-1{
+    background-image: url('../assets SVG/Desktop/backgrounds/06-bg-login.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 978px;
+    height: calc(100vh - 95px - 329px);
+}
+
+
+.section-1-m{
+    background-image: url('../assets SVG/Mobile/backgrounds/06-bg-login.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+}
+
+.login-box{
+    min-height: 595px;
+    min-width: 566px;
+    border-radius: 45px;
+}
+
+
+.input-field::placeholder {
+    color: rgb(161, 161, 161);
+}
+
+.input-field.login{
+    background-size:  20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 15px;
+}
+
+.input-field.password{
+    background-size:  20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 15px;
+}
+
+.desktop-lady{
+    height: 382px;
+    width: 227px;
+}
+
+.desktop-lady-box{
+    width: 50%;
+    height: 328px;
+    bottom: 0;
+    left: 8%;
+}
+
+.mobile-lady{
+    height: 165px;
+    width: 98px;
+}
+
+.mobile-lady-box{
+    width: 25%;
+    height: 28%;
+    bottom: -7px;
+    left: 0px;
+}
+
+@media screen and (width: 768px) {
+    .mobile-lady-box{
+        left: 48px;
+    }
+    .ipad-margin{
+        margin-top: 100px !important;
+    }
+}

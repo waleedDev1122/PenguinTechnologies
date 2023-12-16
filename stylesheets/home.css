@@ -1,0 +1,145 @@
+.section-1{
+    background-image: url('../assets SVG/Desktop/backgrounds/01-bg-landing.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 750px;
+}
+
+.section-mb-1{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 715px;
+}
+
+.section-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 675px;
+}
+
+.section-2-mb{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 1145px;
+}
+
+
+.hero-title{
+    max-height: 300px;
+}
+
+.section2-title{
+    max-height: 115px;
+}
+
+
+.section-3-mb{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 675px;
+}
+
+
+.section-3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+}
+
+
+.section-3-true-height{
+    height: 81%;
+}
+
+.section-3-true-width{
+    width: 5%;
+}
+
+.left-arrow{
+    left: 25px;
+    top: -80px;
+}
+
+.right-arrow{
+    right: 25px;
+    top: -80px;
+}
+
+#carousal_mobile{
+    display: none;
+}
+
+.second-image-position{
+    bottom: -12%;
+}
+
+.first-image-position{
+    bottom: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .second-image-position{
+        bottom: -2%;
+    }
+    .first-image-position{
+        bottom: 64px;
+    }
+
+    .section-3{
+        height: 589px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .mobile-d-none{
+        display: none;
+    }
+    .section-3-true-width{
+        width: 10%;
+    }
+    
+    .left-arrow{
+        top: -140px;
+        left: 15px;
+    }
+    
+    .right-arrow{
+        top: -140px;
+        right: 15px;
+    } 
+    
+    #carousal_mobile{
+        display: block;
+        height: 87% !important;
+    }
+
+    #carousal{
+        display: none;
+    }
+
+    .mobile-person-svg{
+        position: relative !important;
+    }
+
+    .mobile-person-svg-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: -45px;
+    }
+
+    .section-3{
+        height: 770px;
+    }
+    /* .apply-btn-m{
+        width: 100%;
+        top: 20px;
+    } */
+}

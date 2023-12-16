@@ -1,0 +1,171 @@
+.section-1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 555px;
+}
+
+.section-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+
+.hero-title{
+    max-height: 300px;
+}
+
+.section2-title{
+    max-height: 115px;
+}
+
+.section-2-true-height{
+    height: 400px;
+}
+
+.section-1-mb{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 708px;
+}
+
+.section-2-mb{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 666px;
+}
+
+.section-3-true-height{
+    height: 81%;
+}
+
+.section-3-true-width{
+    width: 5%;
+}
+
+.left-arrow{
+    left: 25px;
+    top: 60px;
+}
+
+.right-arrow{
+    right: 25px;
+    top: 60px;
+}
+
+.mt-8{
+    margin-top: 8rem !important;
+}
+
+.search-max-width{
+    max-width: 65%;
+}
+
+.join-btn-hide{
+    display: none;
+}
+
+
+.mic-boy-position{
+    left: 24%;
+}
+
+#carousal_mobile{
+    display: none;
+}
+
+#jobs_input{
+    max-width: 600px;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+    
+    .search-title-width{
+        max-width: 34% !important;
+        flex: 0 0 34%;
+    }
+
+    .search-input-width{
+        max-width: 66% !important;
+        flex: 0 0 66%;
+    }
+
+    .search-max-width{
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    ._display_4{
+        line-height: 42px;
+        font-size: 32px;
+        letter-spacing: 0px
+    }
+
+    .search-title-width{
+        max-width: 40% !important;
+        flex: 0 0 40%;
+    }
+
+    .search-input-width{
+        max-width: 60% !important;
+        flex: 0 0 60%;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .section-2{
+        min-height: 700px;
+    }
+
+    .left-arrow{
+        top: 8%;
+        left: 10px;
+    }
+    
+    .right-arrow{
+        top: 8%;
+        right: 10px;
+    }
+    .section-3-true-width {
+        width: 10%;
+    }
+    .mic-boy-position{
+        left: 20px;
+    }
+
+    .mt-8{
+        margin-top: 10rem !important;
+    }
+
+    #carousal_mobile{
+        display: block;
+        height: 87% !important;
+    }
+
+    #carousal{
+        display: none;
+    }
+
+    .search-title-width{
+        max-width: 50% !important;
+        flex: 0 0 50%;
+    }
+
+    .search-input-width{
+        max-width: 50% !important;
+        flex: 0 0 50%;
+    }
+}
+
+@media screen and (min-height: 1500px){
+    .bottom-0.bg-section-break.row.no-gutters.w-100.position-relative{
+        margin-top: calc(100vh - 1502px) !important;
+    }
+}

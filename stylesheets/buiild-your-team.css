@@ -1,0 +1,136 @@
+.section-1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 1342px;
+}
+
+.section-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 1050px;
+}
+
+
+.section-1-m{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 1500px;
+}
+
+.section-2-m{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 1140px;
+}
+
+.hero-title{
+    height: 180px;
+}
+
+.left-3{
+    left: -32px;
+}
+
+.bottom-328{
+    bottom: 328px;
+}
+
+.min-height-450{
+    min-height: 450px;
+}
+
+@media screen and (max-width: 1400px) {
+    .section-2{
+        min-height: 920px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .left-3{
+        left: -26px;
+    }
+
+    .ipad-margin{
+        margin-top: 230px;
+    }
+    .section-2{
+        min-height: 1050px;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .left-3{
+        left: -22px;
+    }
+    .section-2{
+        min-height: 980px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section-1-m{
+        height: 1570px;
+    }
+    .section-2-m{
+        height: 1140px;
+    }
+
+    .ipad-second-image-width{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .section-1-m{
+        height: 1840px;
+    }
+    .section-2-m{
+        height: 1140px;
+    }
+
+    .ipad-second-image-width{
+        width: 100%;
+    }
+    .drones-top{
+        top: -50px !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section-1-m{
+        height: 2100px;
+    }
+  
+    .ipad-second-image-width{
+        width: 100%;
+    }
+
+    .drones-top{
+        top: -50px !important;
+    }
+
+}
+
+@media screen and (max-width: 380px){
+    .drones-top{
+        top: 50px !important;
+    }
+}
+
+@media screen and (width: 320px){
+    .section-1-m{
+        height: 2300px;
+    }
+
+    .drones-top{
+        top: 15px !important;
+    }
+}

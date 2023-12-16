@@ -1,0 +1,50 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.section-1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 870px;
+}
+
+.section-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 975px;
+}
+
+.hero-title{
+    max-height: 300px;
+}
+
+.section2-title{
+    max-height: 115px;
+}
+
+
+.section-1-mb{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 788px;
+}
+
+.section-2-mb{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.bottom-100{
+    bottom: 100px;
+}
+
+@media screen and (max-width: 1400px) {
+    .section-2{
+        min-height: 1100px;
+    }
+}
+

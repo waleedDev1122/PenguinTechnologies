@@ -1,0 +1,57 @@
+.section-1{
+    background-image: url('../assets SVG/Desktop/backgrounds/07-bg-getintouch.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1250px;
+}
+
+.section-1-m{
+    background-image: url('../assets SVG/Mobile/backgrounds/07-bg-getintouch.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1250px;
+}
+
+
+.intouch-box{
+    height: auto;
+    width: 566px;
+    border-radius: 45px;
+}
+
+
+.input-field::placeholder {
+    color: white;
+}
+
+.input-box{
+    height: 345px;
+}
+
+.letter-man-img{
+    height: 212px;
+    width: 172px;
+}
+
+.letter-man-div{
+    display: none;
+}
+
+.letter-div{
+    width: 500px;
+}
+
+@media screen and (min-height: 1600px){
+    .section-1.d-lg-block.d-none.position-relative{
+        height: calc(100vh - 95px - 329px);
+    }
+    .mx-auto.letter-div.mt-5{
+        display: none;
+    }
+
+    .letter-man-div{
+        display: block;
+    }
+}
